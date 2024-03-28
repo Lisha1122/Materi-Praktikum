@@ -14,7 +14,7 @@ public class LCD {
         Status = "on";
       }
       void freeze() {
-        Status = "freeze";
+        Status = "Freeze";
       }
       void volumeUp() {
         Volume++;
@@ -58,10 +58,9 @@ public class LCD {
         }
 
         public void displayMessege() {
-            System.out.println("---------------LCD--------------");
-            System.out.println("LCD status              :" + Status);
-            System.out.println("Volume                  :" + Volume);
-            System.out.println("Brightnes               :" + Brightness);
-            System.out.println("Cable                   :" + Cable);
+            System.out.println("LCD status  :" + Status);
+            System.out.println("Volume      :" + Volume);
+            System.out.println("Brightnes   :" + Brightness);
+            System.out.println("Cable       :" + Cable);
         }
     }

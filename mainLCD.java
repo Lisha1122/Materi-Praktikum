@@ -16,6 +16,7 @@ public class mainLCD {
         lcd1.cableUp();
         lcd1.cableUp();
         lcd1.cableUp();
+        lcd1.cableUp();
         lcd1.setCable(); 
 
         lcd1.displayMessege(); 
