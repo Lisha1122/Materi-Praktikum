@@ -1,4 +1,4 @@
-public class utama {
+public class mainLCD {
     public static void main(String[] args) {
         LCD lcd1 = new LCD();
         lcd1.turnOff();

@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
 public class LCD {
-      String Status;
-      int Volume;
-      int Brightness;
-      String Cable; 
-      int cable = 1;
+      private String Status;
+      private int Volume;
+      private int Brightness;
+      private String Cable; 
+      private int cableindex;
 
       void turnOff() {
         Status = "off";
@@ -35,13 +35,13 @@ public class LCD {
         Brightness = brightness; 
       }    
       void cableUp() {
-        cable++;
+        cableindex++;
       }
       void cableDown() {
-        cable--;
+        cableindex--;
       }      
       void setCable() {
-        switch (cable) {
+        switch (cableindex) {
            case 1:
                 Cable = "VGA";
             break;
